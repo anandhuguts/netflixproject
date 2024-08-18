@@ -1,0 +1,794 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    
+    background-color: #232323;
+    background-attachment: fixed;
+}
+.firstpage{
+    width: 100%;
+    height: 732px;
+    background-image:url(./background1.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navigation{
+    display: grid;
+    grid-template-columns: 3fr 1fr .5fr;
+    max-width: 100%;
+    padding-top: 40px;
+    align-items: center;
+}
+.netflixlogo{
+    margin-left: 30%;
+}
+.signinandlanguage{
+    display: flex;
+    column-gap: 5%;
+}
+.english{
+    display: flex;
+    border: 1px solid white;
+    width: 122px;
+    height: 33px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left:40%;
+    column-gap: 10px;
+    padding: 0 px;
+    
+}
+.eng{
+    color: white;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    white-space: nowrap;
+}
+.languagesvg{
+   margin-left: 11px;
+}
+.polysvg{
+ margin-right: 11px;
+}
+.signinbutton{
+    width: 100px;
+    height: 33px;
+    background-color: #E50914;
+    border-radius: 3px;
+    border: none;
+    padding: 6px 21px;
+    transition: background-color 0.3s ease;
+    
+    
+}
+.sign{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    white-space: nowrap;
+    
+}
+.signinbutton:hover{
+    background-color: #811810;
+}
+
+.unlimited{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    
+    align-items: center;
+}
+.u1{
+    color: white;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-style: normal;
+}
+.u2{
+    color: white;
+    margin-top: 7px;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  
+  font-style: normal;
+}
+.u3{
+    color: white;
+    margin-top: 21px;
+    font-size: 18.5px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  
+  font-style: normal;
+}
+.email{
+    margin-top: 50px;
+}
+.mail{
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid #555555;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 16px;
+    border-radius: 5px;
+}
+input::placeholder{
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  
+  font-style: normal;
+}
+.get{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  
+  font-style: normal;
+}
+.startbutton{
+    position: relative;
+    top: 2px;
+    background-color: #E50914;
+    padding: 9px 22px;
+    margin-left: 11px;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+.startbutton:hover {
+    background-color: #B81D13;
+}
+.svgpoly{
+    padding-left: 9px;
+    position: relative;
+    
+}
+.secondpage{
+    width: 100%;
+    height: 721px;
+    background-color: black;
+    margin-top: 10px;
+}
+.secondcontentgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 2%;
+    
+    
+
+}
+.h1second{
+    color: white;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+    
+}
+.contentsecond{
+    margin-top: 280px;
+   
+}
+.psecond{
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 10px;
+
+}
+.tv{
+    margin-right: 176px;
+    margin-top: 121px;
+}
+.tvpng{
+    position: relative;
+    bottom: 290px;
+}
+.tvvideo{
+    width: 465px;
+    position: relative;
+    left: 85px;
+    top: 75px;
+}
+.thirdpage{
+    width: 100%;
+    height:721px;
+    background-color: black;
+    margin-top: 10px;
+}
+.psecond2{
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 10px;
+}
+.thirpagedgrid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    max-width: 1401px;
+    
+}
+.align{
+    display: grid;
+    grid-template-columns: 1fr;
+   
+    align-items: center;
+    justify-items: center;
+}
+.h1second2{
+    color: white;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+}
+.downloadtext{
+    margin-top: 269px;
+    
+}
+.elevenimg{
+    margin-top: 70px;
+   
+    width: 714px;
+    height: 535px;
+}
+.tvpngthird{
+    position: relative;
+    bottom: 220px;
+}
+.tvvideothird{
+    width: 400px;
+    position: relative;
+    left: 110px;
+    top: 55px;
+}
+.fourthpage{
+    width: 100%;
+    height: 721px;
+    background-color: black;
+    margin-top: 10px;
+}
+.fourthcontentgrid{
+    height: 721px;
+    max-width: 1550px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 5%;
+}
+.psecond4{
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 10px;
+
+}
+.h1second4{
+    color: white;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+    
+}
+
+.contentsecond4{
+    margin-top: 280px;
+    
+}
+
+.tv2{
+    margin-right: 176px;
+    margin-top: 121px;
+}
+.fifthpage{
+    width: 100%;
+    height:721px;
+    background-color: black;
+    margin-top: 10px;
+    
+}
+.fifthgrid2{
+    max-width: 1490px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 11%;
+    
+    
+}
+
+.downloadtext5{
+    margin-top: 269px;
+    
+}
+.h1second5{
+    color: white;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+    
+}
+.psecond5{
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 10px;
+
+}
+.kidsimg{
+    margin-top: 130px;
+    margin-left: 18%;
+    width:640px ;
+    height:480px ;
+}
+.sixthpage{
+    width: 100%;
+    height: 825px;
+    background-color: black;
+    margin-top: 10px;
+    
+}
+.questionh1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    padding-top: 85px;
+}
+.questiongrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 6px;
+    margin-top: 37px;
+    max-width: 1334px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.questionbar{
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    align-items: center;
+    height: 67px;
+    background-color: #2D2D2D;
+    column-gap: 18px;
+    padding: 0 18px;
+    transition: background-color 0.3s ease;
+}
+.questionbar:hover {
+    background-color: #B81D13;
+}
+.textquestion{
+    color: white;
+    padding-left: 18px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+.mail6{
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid #555555;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 16px;
+    border-radius: 5px;
+}
+.plusimg{
+    padding-right: 18px;
+}
+.readytext{
+    color: white;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin-top: 27px;
+
+}
+.email2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.startbutton2{
+    position: relative;
+    top: 2px;
+    background-color: #E50914;
+    padding: 9px 22px;
+    margin-left: 11px;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+.startbutton2:hover {
+    background-color: #B81D13;
+}
+.seventhpage{
+    width: 100%;
+    height: 518px;
+    background-color: black;
+    margin-top: 10px;
+}
+.footer{
+    padding-top: 74px;
+    display: grid;
+    max-width: 1182px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    row-gap: 13px;
+    column-gap: 15.39%;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.link{
+    color: #BBBBBB;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.footerh1{
+   padding-top: 91px;
+   
+   color: #811810;
+}
+
+
+.language2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #7D7979;
+    max-width: 130px;
+    border-radius: 5px;
+    margin-top: 28px;
+    background-color: #171717;
+}
+.languagesvg2{
+    width: 15px;
+    margin-right: 11px;
+    margin-left: 21px;
+}
+.polysvg2{
+    width: 10px;
+    margin-left: 11px;
+    margin-right: 21px;
+    
+}
+.list18{
+    
+    margin-top: 17px;
+}
+.eng2{
+    color: white;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.language-container {
+    max-width: 1182px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    
+}
+.h1align{
+    max-width: 1182px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+@media (max-width: 430px){
+    .firstpage{
+        height: 466px;
+    }
+    .navigation{
+        grid-template-columns: 2fr 1fr 1fr;
+        padding-top: 20px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .netflixlogo{
+        width: 100px;
+        margin-left: 20%;
+        margin-top: 8px;
+    }
+    .eng{
+        display: none;
+    }
+    .english{
+        
+        width:78px ;
+        height: 33px;
+        position: relative;
+        left: 25px;
+    }
+
+        .signinbutton{
+            width: 70px;
+            padding: 0;
+            padding: 0px 7px;
+            position: relative;
+            left: 40px;
+
+        }
+        .u1{
+            font-size: 30px;
+           
+           
+            
+        }
+        .break::before {
+            content: "\A";
+            white-space: pre;
+        }
+        .unlimited{
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-top: 60px;
+            
+
+        }
+        .u2{
+            font-size: 15px;
+            position: relative;
+            
+            
+        }
+        .u3{
+            font-size: 15px;
+            position: relative;
+            
+            margin-top: 15px;
+        }
+        input::placeholder{
+            font-size: 16px;
+        }
+        .mail{
+            width: 300px;
+            height: 50px;
+        }
+        .email{
+            display: grid;
+           margin-left: auto;
+           margin-right: auto;
+            margin-top: 30px;
+        }
+        .get{
+            font-weight: 500;
+            font-size: 18px;
+        }
+        .startbutton{
+           display: grid;
+           grid-template-columns: 1fr auto;
+           align-items: center;
+           max-width: 177px;
+           margin-left: auto;
+           margin-right: auto;
+            margin-top: 15px;
+        }
+
+        .secondpage{
+            height: 487px;
+        }
+        
+        
+        .secondcontentgrid{
+            display:flex;
+            flex-direction: column;
+        }
+        .h1second{
+            font-size: 36px;
+            text-align: center;
+            position: relative;
+            bottom: 250px;
+        }
+        .psecond{
+            font-size: 16px;
+            text-align: center;
+            position: relative;
+            bottom: 250px;
+        }
+        .tv{
+            display: grid;
+            transform: scale(.5);
+            position: relative;
+            bottom: 530px;
+        }
+        .thirdpage{
+            height: 487px;
+        }
+        .thirpagedgrid{
+            max-width: 428px;
+            display: flex;
+            flex-direction: column-reverse;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            bottom: 230px;
+
+        }
+        .gridforalign{
+            display: flex;
+            max-width: 428px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .elevenimg{
+            
+            width:324px ;
+            height: 243px;
+            margin: 0;
+            
+
+        }
+        
+        .h1second2{
+            font-size: 27px;
+            text-align: center;
+            
+        }
+        .psecond2{
+            text-align: center;
+            font-size: 14px;
+           
+
+        }
+        .fourthpage{
+            height: 487px;
+        }
+        .fourthcontentgrid{
+            height: 487px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            bottom: 230px;
+        }
+        .h1second4{
+            font-size: 27px;
+            text-align: center;
+        }
+        .psecond4{
+            font-size:14px ;
+            text-align: center;
+        }
+        .tv2{
+            transform: scale(.5);
+            position: relative;
+            bottom: 250px;
+        }
+        .fifthpage{
+            height: 487px;
+        }
+        .fifthgrid2{
+            display: flex;
+            flex-direction: column-reverse;
+            position: relative;
+            bottom: 230px;
+        }
+        .h1second5{
+            font-size: 27px;
+            text-align: center;
+        }
+        .psecond5{
+            font-size: 14px;
+            text-align: center;
+        }
+        
+        .kidsimg{
+            margin: 0;
+                margin-top: 130px;
+                width:248px ;
+                height:186px ;
+                transform: scale(1.2);
+            }
+            .gridforalign2{
+                display: flex;
+                justify-content: center;
+                position: relative;
+                bottom: 50px;
+
+            }
+            .sixthpage{
+                height: 850px;
+            }
+            .questionh1{
+                font-size: 27px;
+                margin: 0;
+                padding: 0;
+                padding-top: 40px;
+            }
+            .questiongrid{
+                max-width: 371px;
+            }
+            .readytext{
+                font-size: 15px;
+            }
+            .email2{
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+            }
+            .seventhpage{
+                height: 565px;
+            }
+            .footer{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                max-width: 360px;
+                position: relative;
+                bottom: 70px;
+            }
+            .footerh1{
+                margin: 0;
+                margin-left: 33px;
+                position: relative;
+                bottom: 60px;
+            }
+            .language-container{
+                margin: 0;
+                margin-left:33px ;
+                position: relative;
+                bottom: 60px;
+            }
+
+        
+       
+    }
+        
